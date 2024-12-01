@@ -8,6 +8,7 @@ const screen = document.getElementById('screen-text');
 
 const keyEvents = {
 	Backspace: { type: 'clear', value: 'ac' },
+	Escape: { type: 'clear', value: 'ac' },
 	Delete: { type: 'clear', value: 'c' },
 	0: { type: 'num', value: '0' },
 	1: { type: 'num', value: '1' },
@@ -25,8 +26,8 @@ const keyEvents = {
 	'*': { type: 'operator', value: '*' },
 	'/': { type: 'operator', value: '/' },
 	'%': { type: 'operator', value: '%' },
-	'=': { type: 'equal', value: null },
-	Enter: { type: 'equal', value: null },
+	'=': { type: 'equal', value: '=' },
+	Enter: { type: 'equal', value: '=' },
 };
 
 buttons.forEach((element) => {
@@ -39,6 +40,7 @@ buttons.forEach((element) => {
 document.addEventListener('keydown', function (event) {
 	let data = keyEvents[event.key];
 	handleAllInput(data.type, data.value);
+	console.log(event.key);
 });
 
 function handleAllInput(eventType, eventValue) {
