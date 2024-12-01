@@ -51,7 +51,6 @@ function handleAllInput(eventType, eventValue) {
 	} else if (eventType == 'equal') {
 		handleEqualInput();
 	}
-	test();
 }
 
 function handleClearInput(value) {
@@ -142,8 +141,4 @@ function setScreenText(text) {
 		screen.style.opacity = text === '0' && num1 === null ? 0.5 : 1;
 	}
 	screen.innerHTML = text;
-}
-
-function test() {
-	console.log(typeof num1, num1, typeof operator, operator, typeof num2, num2);
 }
