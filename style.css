@@ -1,0 +1,42 @@
+@font-face {
+	font-family: 'DS Digital';
+	src: url('./font/DS-DIGIT.TTF') format('truetype'); /* Adjust path if necessary */
+}
+
+* {
+	font-family: Roboto, 'Helvetica Neue', san-serif;
+	font-family: 'DS Digital', monospace;
+	/* outline: solid 2px red; */
+}
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: orange;
+	height: 98vh;
+	perspective: 1000px;
+}
+
+#container {
+	background-color: #333333;
+	display: flex;
+	justify-content: center;
+	width: 25vw;
+	height: 80vh;
+	padding: 5vh 0;
+	border-radius: 10px;
+	box-shadow: -6px 1px 10px #222222, -6px 6px 0px #222222;
+}
+
+#screen {
+	display: flex;
+	width: 78%;
+	height: 18%;
+	background-color: #cde9e9b6;
+	border-radius: 10px;
+	justify-content: end;
+	align-items: center;
+	font-size: 5em;
+	padding: 0 0.3em;
+}
