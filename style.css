@@ -3,6 +3,10 @@
 	src: url('./font/DS-DIGIT.TTF') format('truetype'); /* Adjust path if necessary */
 }
 
+::selection {
+	background: transparent;
+}
+
 * {
 	font-family: Roboto, 'Helvetica Neue', san-serif;
 	font-family: 'DS Digital', monospace;
