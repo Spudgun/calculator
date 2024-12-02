@@ -39,8 +39,8 @@ buttons.forEach((element) => {
 
 document.addEventListener('keydown', function (event) {
 	let data = keyEvents[event.key];
+	if (typeof data == 'undefined') return;
 	handleAllInput(data.type, data.value);
-	console.log(event.key);
 });
 
 function handleAllInput(eventType, eventValue) {
