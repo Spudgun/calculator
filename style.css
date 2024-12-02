@@ -6,7 +6,7 @@
 * {
 	font-family: Roboto, 'Helvetica Neue', san-serif;
 	font-family: 'DS Digital', monospace;
-	/* outline: solid 2px red; */
+	outline: solid 2px red;
 }
 
 body {
@@ -26,12 +26,12 @@ body {
 	justify-content: center;
 	align-items: center;
 	flex-wrap: wrap;
-	height: 500px;
-	min-height: 500px;
-	width: 400px;
-	min-width: 400px;
-	padding: 5vh 0;
-	border-radius: 10px;
+	height: 32rem;
+	min-height: 32rem;
+	width: 25rem;
+	min-width: 25rem;
+	padding: 1.5rem 0;
+	border-radius: 0.5rem;
 	box-shadow: -6px 1px 10px #222222, -6px 6px 0px #222222;
 }
 
@@ -39,14 +39,14 @@ body {
 	display: flex;
 	justify-content: end;
 	align-items: center;
-	width: 84%;
-	height: 18%;
-	border-radius: 10px;
-	font-size: 5em;
+	width: 21rem;
+	height: 5rem;
+	border-radius: 0.5rem;
+	font-size: 5rem;
 	background-color: #cde9e9b6;
 	box-shadow: inset 5px 5px 10px rgba(0, 0, 0, 0.5);
 	overflow: hidden;
-	padding: 0 10px;
+	padding: 0 1rem;
 }
 
 #screen-text {
@@ -59,25 +59,25 @@ body {
 	justify-content: center;
 	align-content: center;
 	flex-wrap: wrap;
-	width: 95%;
-	height: 75%;
-	max-height: 75%;
-	gap: 12px;
-	margin-top: 10%;
+	width: 21rem;
+	height: 25rem;
+	max-height: 25rem;
+	gap: 1rem;
+	margin-top: 0.5rem;
 }
 
 .button {
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	font-family: 'Roboto', sans-serif;
 	font-size: 2em;
 	background-color: #858585;
 	color: white;
-	width: 75px;
-	height: 60px;
-	margin: 2px 3px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
+	width: 3.5rem;
+	height: 3.5rem;
 	border-radius: 5px;
+	margin: 0 0.3rem;
 	box-shadow: 4px 1px 10px #222222, 4px 6px 0px #222222;
 }
 
@@ -94,7 +94,7 @@ body {
 }
 
 .addition {
-	height: 136px;
+	height: 8rem;
 }
 
 .erase {
